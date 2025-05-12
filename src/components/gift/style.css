@@ -13,3 +13,73 @@
 .gift-item {
     padding: 70px 0;
 }
+
+.gift-area {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.section-title h2 {
+  font-family: 'Blosta', sans-serif;
+  font-size: 36px;
+  color: #ceb422;
+  margin-bottom: 20px;
+}
+
+.section-title p {
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.gift-content {
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  color: #333;
+}
+
+.gift-link {
+  margin-bottom: 30px;
+}
+
+.gift-button {
+  display: inline-block;
+  padding: 12px 30px;
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ceb422;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.gift-button:hover {
+  background-color: #b89c1a;
+}
+
+.gift-details {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.gift-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.gift-details ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.important-note {
+  font-size: 14px;
+  color: #0b2839;
+  margin-top: 20px;
+  text-align: center;
+}

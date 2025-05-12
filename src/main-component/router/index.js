@@ -7,6 +7,7 @@ import Homepage4 from '../HomePage4'
 import BlogPage from '../blogpage'
 import BlogDetailsPage from '../BlogDetailsPage'
 
+
 const AllRoute = () => {
 
   return (

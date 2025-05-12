@@ -2,91 +2,64 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import gift1 from '../../images/gift/2.png'
-import gift2 from '../../images/gift/3.png'
-import gift3 from '../../images/gift/4.png'
-import gift4 from '../../images/gift/2.png'
-import './style.css'
-
+import "./style.css";
 
 class Gift extends Component {
-    render() {
-      var settings = {
-        dots: false,
-        arrows: false,
-        speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay:true,
-        autoplaySpeed:1500,
-        responsive: [
-            {
-              breakpoint: 1024,
-              settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-              }
-            },
-            {
-              breakpoint: 600,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-              }
-            },
-            {
-              breakpoint: 480,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1
-              }
-            }
-          ]
-      };
-      return (
-          <div className="gift-area">
-              <div className="container">
-                    <div className="col-12">
-                      <div className="section-title text-center">
-                          <h2>Gift Registration</h2>
-                          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised.</p>
-                      </div>
-                  </div>
-                  <div className="row gift-item">
-                      <div className="col-lg-12">
-                        <Slider {...settings}>
-                            <div className="item">
-                                <img src={gift1} alt=""/>
-                            </div>
-                            <div className="item">
-                                <img src={gift2} alt=""/>
-                            </div>
-                            <div className="item">
-                                <img src={gift3} alt=""/>
-                            </div>
-                            <div className="item">
-                                <img src={gift4} alt=""/>
-                            </div>
-                            <div className="item">
-                                <img src={gift1} alt=""/>
-                            </div>
-                            <div className="item">
-                                <img src={gift2} alt=""/>
-                            </div>
-                            <div className="item">
-                                <img src={gift3} alt=""/>
-                            </div>
-                            <div className="item">
-                                <img src={gift4} alt=""/>
-                            </div>
-                            </Slider>
-                      </div>
-                  </div>
-              </div>
+  render() {
+    return (
+      <div id="gift" className="gift-area">
+        <div className="container">
+          <div className="col-12">
+            <div className="section-title text-center">
+              <h2>Mesa de Regalos</h2>
+              <p>
+                Su presencia es lo más importante para nosotros. <br></br>Hemos preparado
+                una mesa de regalos donde podrás elegir algo especial para
+                nosotros.
+              </p>
+            </div>
           </div>
-      );
-    }
+          <div className="gift-content">
+            <div className="gift-link">
+              <a
+                href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51634139"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="gift-button"
+              >
+                Ver mesa de regalos
+              </a>
+            </div>
+            <div className="gift-details">
+              <p>
+                Si prefieres hacerlo de manera más práctica, también puedes
+                apoyarnos con un detalle en efectivo al siguiente número de
+                cuenta:
+              </p>
+              <ul>
+                <li>
+                  <strong>Cuenta BBVA:</strong> Mónica Gómez Maurtua
+                </li>
+                <li>
+                  <strong>Cuenta:</strong> 152 743 7417
+                </li>
+                <li>
+                  <strong>Cuenta CLABE:</strong> 012 180 01527437417 7
+                </li>
+                <li>
+                  <strong>Tarjeta de débito:</strong> 4152 3140 0409 8706
+                </li>
+              </ul>
+              <p className="important-note">
+                <strong>Importante:</strong> En el concepto favor de indicar tu
+                nombre para que podamos agradecerte después.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
   }
+}
 
 export default Gift;

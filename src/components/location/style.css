@@ -2,10 +2,12 @@
 .service-area-menu ul li {
     display: inline-block;
     padding: 10px 0;
+    
 }
 
 .service-area-menu ul {
     justify-content: space-around;
+    
 }
 
 .service-area-menu li a {
@@ -13,6 +15,8 @@
     padding: 12px 81px;
     color: #fff;
     border-right: 1px solid #eee;
+    
+ 
 }
 .service-area-menu li:last-child a {
     border-right: none;
@@ -21,6 +25,7 @@
 .service-area-menu li a:hover {
     background: #4e7b72;
     color: #fff;
+    font-family: 'Muli', sans-serif !important;
 }
 
 .service-area-menu ul {
@@ -30,11 +35,13 @@
 
 .ceromony-content2 {
     padding-left: 30px;
+    font-family: 'Muli', sans-serif !important;
 }
 
 .Ceremony-wrap {
     margin-top: 30px;
     background: #f5fbfb;
+    font-family: 'Muli', sans-serif !important;
 }
 
 #people .Ceremony-wrap {
@@ -58,20 +65,23 @@
     font-size: 30px;
     color: #d7ae45;
     margin-bottom: 16px;
+
 }
 
 .ceromony-content .location-btn {
-    color: #d7ae45;
+    color: #D68631;
     font-weight: 600;
     display: inline-block;
-    max-width: 130px;
+    max-width: 200px;
     padding: 0;
-    text-align: left;
+    text-align: right;
     background: none;
+  
 }
 .ceromony-content .btn.location-btn:hover {
     background: none!important;
-    color: #d7ae45;
+    color: #D68631;
+    
 }
 .ceromony-content .location-btn:focus {
     box-shadow: none;
@@ -84,6 +94,7 @@
 .ceromony-content p {
     padding: 20px 0;
     padding-right: 20px;
+    font-family: 'Muli', sans-serif !important;
 }
 
 

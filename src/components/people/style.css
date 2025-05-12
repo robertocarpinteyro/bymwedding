@@ -130,3 +130,40 @@ person-area
     color: #fff;
 }
 
+.person-area {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.section-title h2 {
+  font-family: 'Blosta', sans-serif;
+  font-size: 36px;
+  color: #ceb422;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.padrinos-content {
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  color: #333;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.padrinos-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.padrinos-content ul li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.padrinos-content ul li strong {
+  color: #ceb422;
+  font-weight: bold;
+}

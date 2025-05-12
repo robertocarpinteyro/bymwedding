@@ -23,7 +23,7 @@ const LocationMap = ({ maxWidth, button, buttonClass }) => {
                 className={`btn ${buttonClass}`}
                 onClick={handleClickOpen}>
                 {button}
-                Ubicación
+                Ver ubicación
             </button>
             <Dialog
                 open={open}

@@ -1,10 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes|Muli:300,400,500,600,700&display=swap');
 
+@font-face {
+  font-family: 'Blosta';
+  src: url('../../assets/fonts/BLOSTA.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BlostaScript';
+  src: url('../../assets/fonts/BlostaScript.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1,h2,h3{
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Blosta', cursive;
 }
 body{
-  font-family: 'Muli', sans-serif;
+  font-family: 'Great Vibes', sans-serif;
 }
 ul{
   list-style: none;
@@ -87,7 +101,7 @@ img{
   opacity: 1;
   left: 0;
   width: 100%;
-  background: #d7ae45;
+  background: #0b2839;
   border: none;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
     -moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
@@ -107,9 +121,9 @@ img{
 }
 
 .fixed-navbar.active .header ul li ul li a:hover{
-  color:#d7ae45;
+  color:#10475e;
 }
 
 .fixed-navbar.active .header .responsivemenu li a:hover {
-  color: #d7ae45;
+  color: #0b2839;
 }

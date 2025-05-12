@@ -1,5 +1,6 @@
 .count-down-area{
-    padding-top: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;;
 }
 .countdownwrap {
     text-align: center;
@@ -48,7 +49,7 @@
 
 
 .count-down-section h2 {
-    font-family: "Great Vibes", cursive;
+    font-family: "Blosta", sans-serif;
     font-size: 60px;
     color: #fff;
     margin: 0;
@@ -75,11 +76,12 @@
 }
 
 .count-down-item2 h2>span {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Blosta', sans-serif;
     font-size: 24px;
     font-weight: normal;
     display: block;
     margin-bottom: 0.6em;
+    
 }
 
 @media (max-width: 1199px) {
@@ -101,6 +103,9 @@
     padding: 18px 0;
     position: relative;
     z-index: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .section-area:before {
     position: absolute;
@@ -109,7 +114,7 @@
     top: 0px;
     width: 100%;
     height: 100%;
-    background: #aa9122;
+    background: #3d717d;
     z-index: -1;
 }
 
@@ -124,7 +129,7 @@
     color:#fff;
 }
 .clock-area {
-    background: #aa9122;
+    background: #10475E;
     padding: 20px 5px 7px 20px;
 
 }

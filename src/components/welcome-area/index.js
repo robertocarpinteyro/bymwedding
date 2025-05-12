@@ -10,11 +10,11 @@ const Welcome = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="welcome-content">
-              <h2>Bienvenida</h2>
+              <h2>Bienvenidos</h2>
               <p>
                 Nos emociona compartir con ustedes uno de los días más
-                importantes de nuestras vidas. Será una celebración íntima, con
-                las personas que más queremos. ¡Gracias por acompañarnos en este
+                importantes de nuestras vidas. <br></br>Será una celebración íntima, con
+                las personas que más queremos. <br></br>¡Gracias por acompañarnos en este
                 viaje que apenas comienza!
               </p>
               <div className="btn">

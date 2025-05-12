@@ -40,7 +40,7 @@
   
   .blog-sidebar .widget h3:after {
     content: "";
-    background-color:#d7ae45;
+    background-color:#0b2839;
     width: 35px;
     height: 2px;
     position: absolute;
@@ -83,14 +83,14 @@
   }
   
   .blog-sidebar .search-widget form button {
-    background:#d7ae45;
+    background:#0B2839;
     width: 50px;
     height: 50px;
     line-height: 45px;
     text-align: center;
     font-size: 18px;
     font-size: 1.125rem;
-    color:#d7ae45;
+    color:#0B2839;
     border: 0;
     outline: 0;
     position: absolute;
@@ -115,7 +115,7 @@
   
   .blog-sidebar .category-widget ul a:hover,
   .blog-sidebar .category-widget ul li:hover:before {
-    color:#d7ae45;
+    color:#0B2839;
   }
   
   .blog-sidebar .category-widget ul li:last-child a {
@@ -489,5 +489,5 @@
   padding: 80px 0;
 }
 .blog-pg-section .entry-meta li a {
-  color: #d7ae45!important;
+  color: #0B2839!important;
 }
