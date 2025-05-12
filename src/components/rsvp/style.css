@@ -1,5 +1,5 @@
 .rsvp-area {
-    background: linear-gradient(rgba(255, 216, 40, 0.5), rgba(255, 219, 60, 0.5)), transparent url(../../images/guest/1.jpg) center center/cover no-repeat fixed;
+    background: linear-gradient(#10475E, #0b28399f), transparent url(../../images/guest/1.jpg) center center/cover no-repeat fixed;
     padding: 100px 0;
     position: relative;
     background-attachment: fixed;
@@ -75,7 +75,7 @@ select.form-control:not([size]):not([multiple]) {
     background: none;
     border: none;
     padding: 5px 15px 8px;
-    background: #d7ae45;
+    background: #10475E;
     color: #fff;
     border-radius: 5px;
     margin-top: 20px;
@@ -83,7 +83,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .guest-2 button#submit {
-    background: #9a8c40;
+    background: #10475E;
 }
 .contact-form button:hover {
     background: #3f7267;

@@ -73,27 +73,7 @@ const Location = () => {
               </div>
             </div>
           </div>
-          {/* ¿Dónde Hospedarse? */}
-
-          <div className="Ceremony-wrap">
-            <div className="row">
-              <div className="col-lg-7">
-                <div className="ceromony-content">
-                  <h3>¿Dónde Hospedarse?</h3>
-                  <p>
-                    Recomendamos este hotel cercano y cómodo para el fin de
-                    semana:
-                  </p>
-                  <LocationMap3 buttonClass={"location-btn"} />
-                  <p>
-                    Si necesitan ayuda extra con reservaciones, no duden en
-                    escribirnos.
-                  </p>
-                </div>
-              </div>
-             
-            </div>
-          </div>
+ 
 
        
         </div>

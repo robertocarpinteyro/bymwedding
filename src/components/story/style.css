@@ -30,7 +30,7 @@ Story-Area
     z-index: 20;
     display: block;
     font-size: 50px;
-    color: #cfc311b6;
+    color: #D68831;
 }
 .story-area.story-style-2 .story-top:before,
 .story-area.story-style-2 .story-bottom:before {
@@ -241,10 +241,10 @@ Story-Area
 .story-icon span:before {
     font-size: 30px;
     line-height: 30px;
-    color: #b3a453;
+    color: #D68831;
 }
 .story-area.story-style-2 .story-icon span:before {
-    color: #9a8c40;
+    color: #D68831;
 }
 .story .item:nth-child(even) .story-icon {
     right: auto;
@@ -268,5 +268,5 @@ Story-Area
 }
 
 .story-area.story-style-2 a.theme-btn:hover{
-    color: #9a8c40;
+    color: #D68831;
 }

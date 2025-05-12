@@ -1,0 +1,124 @@
+.dress-code-area {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.section-title h2 {
+  font-family: 'Blosta', sans-serif;
+  font-size: 36px;
+  color: #5A3211;
+  margin-bottom: 20px;
+}
+
+.section-title p {
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.dress-code-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.dress-code-section {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dress-code-section h3 {
+  font-family: 'Muli', sans-serif;
+  font-size: 24px;
+  color: #964405;
+  margin-bottom: 10px;
+}
+
+.dress-code-section p {
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.restricted-colors {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 15px;
+}
+
+.restricted-colors li {
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  color: #D68831;
+  margin-bottom: 5px;
+}
+
+.dress-code-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #10475E;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.dress-code-button:hover {
+  background-color: #0B2839;
+}
+
+
+.ceremony-wrap {
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ceremony-content {
+  font-family: 'Muli', sans-serif;
+  color: #333;
+}
+
+.ceremony-content h3 {
+  font-family: 'Blosta', sans-serif;
+  font-size: 28px;
+  color: #5A3211;
+  margin-bottom: 15px;
+}
+
+.ceremony-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.location-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #10475E;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.location-btn:hover {
+  background-color: #0B2839;
+}

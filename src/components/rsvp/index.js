@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import emailjs from "@emailjs/browser";
 import "./style.css";
 
 class Rsvp extends Component {
@@ -9,6 +10,7 @@ class Rsvp extends Component {
     events: "",
     notes: "",
     error: {},
+    successMessage: "",
   };
 
   changeHandler = (e) => {
@@ -24,53 +26,64 @@ class Rsvp extends Component {
   subimtHandler = (e) => {
     e.preventDefault();
 
-    const { name, email, rsvp, events, notes, error } = this.state;
+    const { name, email, rsvp, events, notes } = this.state;
 
-    if (name === "") {
-      error.name = "Please enter your name";
-    }
-    if (email === "") {
-      error.email = "Please enter your email";
-    }
-    if (rsvp === "") {
-      error.rsvp = "Select your number of rsvp";
-    }
-    if (events === "") {
-      error.events = "Select your event list";
-    }
-    if (notes === "") {
-      error.notes = "Please enter your note";
+    // Validación de campos
+    const error = {};
+    if (name === "") error.name = "Por favor, ingresa tu nombre";
+    if (email === "") error.email = "Por favor, ingresa tu email";
+    if (rsvp === "") error.rsvp = "Selecciona el número de reservaciones";
+    if (events === "")
+      error.events = "Selecciona los eventos a los que asistirás";
+    if (notes === "") error.notes = "Por favor, ingresa un mensaje";
+
+    if (Object.keys(error).length > 0) {
+      this.setState({ error });
+      return;
     }
 
-    if (error) {
-      this.setState({
-        error,
-      });
-    }
-    if (
-      error.name === "" &&
-      error.email === "" &&
-      error.email === "" &&
-      error.rsvp === "" &&
-      error.events === "" &&
-      error.notes === ""
-    ) {
-      this.setState({
-        name: "",
-        email: "",
-        rsvp: "",
-        events: "",
-        notes: "",
-        error: {},
-      });
-    }
+    // Configuración de EmailJS
+    const templateParams = {
+      name,
+      email,
+      rsvp,
+      events,
+      notes,
+    };
 
-    console.log(this.state);
-    console.log(this.state.error.notes);
+    emailjs
+      .send(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID, // Service ID desde .env
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID, // Template ID desde .env
+        templateParams,
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY // Public Key desde .env
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          this.setState({
+            name: "",
+            email: "",
+            rsvp: "",
+            events: "",
+            notes: "",
+            error: {},
+            successMessage: "¡Gracias! Tu asistencia ha sido confirmada.",
+          });
+        },
+        (err) => {
+          console.error("FAILED...", err);
+          this.setState({
+            successMessage:
+              "Hubo un error al enviar tu confirmación. Intenta nuevamente.",
+          });
+        }
+      );
   };
 
   render() {
-    const { name, email, rsvp, events, notes, error } = this.state;
+    const { name, email, rsvp, events, notes, error, successMessage } =
+      this.state;
     return (
       <div id="rsvp" className="rsvp-area go-rsvp-area section-padding">
         <div className="container">
@@ -79,8 +92,11 @@ class Rsvp extends Component {
               <div className="rsvp-wrap">
                 <div className="col-12">
                   <div className="section-title section-title4 text-center">
-                    <h2>CONFIRMA TU PRESENCIA</h2>
-                    <p> Confírmanos tu asistencia antes del 15 de septiembre para tener todo listo y hermoso para ti.</p>
+                    <h2>Confirma tu Asistencia</h2>
+                    <p>
+                      Confírmanos tu asistencia antes del 15 de septiembre para
+                      tener todo listo y hermoso para ti.
+                    </p>
                   </div>
                 </div>
                 <form onSubmit={this.subimtHandler}>
@@ -97,7 +113,7 @@ class Rsvp extends Component {
                         />
                         <p>{error.name ? error.name : ""}</p>
                       </div>
-                      <div className="col-12  col-sm-6">
+                      <div className="col-12 col-sm-6">
                         <input
                           type="text"
                           placeholder="Email*"
@@ -135,9 +151,13 @@ class Rsvp extends Component {
                           <option disabled value="">
                             Estaré asistiendo a...*
                           </option>
-                          <option value="1">Todos los eventos</option>
-                          <option value="2">Ceremonia & Fiesta</option>
-                          <option value="3">Pre-Boda</option>
+                          <option value="Todos los eventos">
+                            Todos los eventos
+                          </option>
+                          <option value="Ceremonia & Fiesta">
+                            Ceremonia & Fiesta
+                          </option>
+                          <option value="Rompehielos">Rompehielos</option>
                         </select>
                         <p>{error.events ? error.events : ""}</p>
                       </div>
@@ -156,6 +176,9 @@ class Rsvp extends Component {
                       <button id="submit" type="submit" className="submit">
                         Confirmar mi asistencia
                       </button>
+                      {successMessage && (
+                        <p className="success-message">{successMessage}</p>
+                      )}
                     </div>
                   </div>
                 </form>
