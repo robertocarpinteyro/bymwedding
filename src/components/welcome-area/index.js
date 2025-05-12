@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 import LocationMap from "../LocationModal/LocationModal";
-
+import AnchorLink from "react-anchor-link-smooth-scroll";
 const Welcome = () => {
   return (
     <div className="welcome-area">
@@ -18,7 +18,7 @@ const Welcome = () => {
                 viaje que apenas comienza!
               </p>
               <div className="btn">
-                <Link to="/home">Confirma tu asistencia</Link>
+                <AnchorLink href="#rsvp">Confirma tu asistencia</AnchorLink>
               </div>
               <LocationMap buttonClass={"location-btn"} />
             </div>

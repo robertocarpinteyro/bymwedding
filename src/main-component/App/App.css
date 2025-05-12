@@ -8,8 +8,8 @@
 }
 
 @font-face {
-  font-family: 'BlostaScript';
-  src: url('../../assets/fonts/BlostaScript.otf') format('opentype');
+  font-family: 'Moneta';
+  src: url('../../assets/fonts/moneta.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -18,7 +18,7 @@ h1,h2,h3{
   font-family: 'Blosta', cursive;
 }
 body{
-  font-family: 'Great Vibes', sans-serif;
+  font-family: 'Moneta', sans-serif;
 }
 ul{
   list-style: none;

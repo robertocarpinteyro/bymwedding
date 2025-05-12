@@ -34,7 +34,7 @@ Story-Area
 }
 .story-area.story-style-2 .story-top:before,
 .story-area.story-style-2 .story-bottom:before {
-    color: #9a8c40;
+    color: #0b2839;
     opacity: .5;
 }
 .story-top:before {
@@ -50,7 +50,7 @@ Story-Area
     background: #E8EFED;
 }
 .story-area.story-style-2 .story .content-wrapper::before {
-    background:#9a8c40a6;
+    background:#0b2839;
     opacity: .2;
 }
 .story .item {
@@ -172,13 +172,13 @@ Story-Area
     margin-bottom: 2px;
     font-family: 'Great Vibes', cursive;
     font-size: 40px;
-    color: #dab823;
+    color: #0b2839;
 }
 .story-area.story-style-2 .story .story-content h2 {
     margin-bottom: 2px;
     font-family: 'Great Vibes', cursive;
     font-size: 40px;
-    color: #9a8c40;
+    color: #0b2839;
 }
 
 .story .story-content .btn-link {
@@ -203,7 +203,7 @@ Story-Area
     left: -140%
 }
 .btn2 a {
-    background: #9a8c40;
+    background: #0b2839;
     color: #fff;
 }
 .story .story-icon {
@@ -220,7 +220,7 @@ Story-Area
     background: #efede8;
     content:"\f108";
     font-family: "Flaticon";
-    border: 5px solid #e7e41e;
+    border: 5px solid #0b2839;
 }
 .story-area.story-style-2 .story .story-icon {
     position: absolute;
@@ -264,7 +264,7 @@ Story-Area
     color: #333;
 }
 .story-area a.theme-btn:hover {
-    color: #d4b038;
+    color: #0b2839;
 }
 
 .story-area.story-style-2 a.theme-btn:hover{

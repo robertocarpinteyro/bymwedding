@@ -4,14 +4,7 @@ import './style.css'
 const Footer = () => {
     return(
         <div className="footer-area">
-            <div className="container">
-                <div className="footer-content">
-                    <div className="content-sub">
-                        <h2>Gracias</h2>
-                        <span>Por ser parte de nuestra historia</span>
-                    </div>
-                </div>
-            </div>
+        
         </div>
     )
 }
