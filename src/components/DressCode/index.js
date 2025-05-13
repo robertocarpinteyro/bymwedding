@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-
+import LocationMap3 from "../LocationModal/LocationModal3";
 const DressCode = () => {
   return (
     <div id="dress-code" className="dress-code-area section-padding">
@@ -66,14 +66,10 @@ const DressCode = () => {
                   Recomendamos este hotel cercano y cómodo para el fin de
                   semana:
                 </p>
-                <a
-                  href="https://www.google.com/maps"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="location-btn"
-                >
-                  Ver Ubicación
-                </a>
+                 <LocationMap3
+                  buttonClass="location-btn"
+                  maxWidth="md"
+                />
                 <p>
                   Si necesitan ayuda extra con reservaciones, no duden en
                   escribirnos.

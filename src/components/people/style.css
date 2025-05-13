@@ -138,7 +138,7 @@ person-area
 .section-title h2 {
   font-family: 'Blosta', sans-serif;
   font-size: 36px;
-  color: #ceb422;
+  color: #D68631;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -164,6 +164,6 @@ person-area
 }
 
 .padrinos-content ul li strong {
-  color: #ceb422;
+  color: #D68631;
   font-weight: bold;
 }
