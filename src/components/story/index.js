@@ -4,6 +4,9 @@ import strory1 from "../../images/story/1.jpg";
 import strory2 from "../../images/story/2.jpg";
 import strory3 from "../../images/story/3.jpg";
 import strory4 from "../../images/story/4.jpg";
+import strory5 from "../../images/story/5.jpg";
+import icono1 from "../../images/icono1.png";
+import icono2 from "../../images/icono2.png";
 import "./style.css";
 
 const Story = () => {
@@ -22,7 +25,7 @@ const Story = () => {
               <div className="content-wrapper">
                 <div className="item">
                   <div className="story-icon">
-                    <span className="flaticon-birds-in-love"></span>
+                    <img src={icono1} alt="Icono" className="story-icon-img" />
                   </div>
                   <div className="story-content">
                     <div className="image-wrap">
@@ -45,7 +48,7 @@ const Story = () => {
                 </div>
                 <div className="item">
                   <div className="story-icon">
-                    <span className="flaticon-birds-in-love"></span>
+                     <img src={icono1} alt="Icono" className="story-icon-img" />
                   </div>
                   <div className="story-content">
                     <div className="image-wrap">
@@ -68,7 +71,7 @@ const Story = () => {
                 </div>
                 <div className="item">
                   <div className="story-icon">
-                    <span className="flaticon-birds-in-love"></span>
+                     <img src={icono1} alt="Icono" className="story-icon-img" />
                   </div>
                   <div className="story-content">
                     <div className="image-wrap">
@@ -91,7 +94,7 @@ const Story = () => {
                 </div>
                 <div className="item">
                   <div className="story-icon">
-                    <span className="flaticon-birds-in-love"></span>
+                     <img src={icono2} alt="Icono" className="story-icon-img" />
                   </div>
                   <div className="story-content">
                     <div className="image-wrap">
@@ -115,13 +118,13 @@ const Story = () => {
                 </div>
                 <div className="item">
                   <div className="story-icon">
-                    <span className="flaticon-birds-in-love"></span>
+                    <img src={icono2} alt="Icono" className="story-icon-img" />
                   </div>
                   <div className="story-content">
                     <div className="image-wrap">
                       <div className="single-image">
                         <div>
-                          <img src={strory1} alt="Agradecimientos" />
+                          <img src={strory5} alt="Agradecimientos" />
                         </div>
                       </div>
                     </div>
