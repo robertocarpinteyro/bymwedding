@@ -42,7 +42,7 @@ class Rsvp extends Component {
       return;
     }
 
-    // Configuración de EmailJS
+    // Configuración de EmailJS para el primer email
     const templateParams = {
       name,
       email,
@@ -54,13 +54,17 @@ class Rsvp extends Component {
     emailjs
       .send(
         process.env.REACT_APP_EMAILJS_SERVICE_ID, // Service ID desde .env
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID, // Template ID desde .env
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID, // Template ID para el primer email
         templateParams,
         process.env.REACT_APP_EMAILJS_PUBLIC_KEY // Public Key desde .env
       )
       .then(
         (response) => {
           console.log("SUCCESS!", response.status, response.text);
+
+          // Enviar el segundo email
+          this.sendGuestEmail(templateParams);
+
           this.setState({
             name: "",
             email: "",
@@ -77,6 +81,25 @@ class Rsvp extends Component {
             successMessage:
               "Hubo un error al enviar tu confirmación. Intenta nuevamente.",
           });
+        }
+      );
+  };
+
+  sendGuestEmail = (templateParams) => {
+    // Configuración de EmailJS para el segundo email
+    emailjs
+      .send(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID, // Service ID desde .env
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID_GUEST, // Nuevo Template ID para el segundo email
+        templateParams,
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY // Public Key desde .env
+      )
+      .then(
+        (response) => {
+          console.log("Guest Email Sent!", response.status, response.text);
+        },
+        (err) => {
+          console.error("Failed to send guest email...", err);
         }
       );
   };
