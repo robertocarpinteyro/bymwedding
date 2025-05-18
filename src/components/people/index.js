@@ -10,19 +10,19 @@ const People = () => {
         <div className="padrinos-content">
           <ul>
             <li>
-              <strong>Velación:</strong> Benjamín Sánchez y Clara Juárez
+              <strong>Velación:</strong><br></br> Benjamín Sánchez y Clara Juárez
             </li>
             <li>
-              <strong>Lazo:</strong> Erika Maurtua y Manuel Gómez
+              <strong>Lazo:</strong><br></br>  Erika Maurtua y Manuel Gómez
             </li>
             <li>
-              <strong>Anillos:</strong> Erika Gómez y Manuel Moreno
+              <strong>Anillos:</strong> <br></br> Erika Gómez y Manuel Moreno
             </li>
             <li>
-              <strong>Biblia y Ramo:</strong> Macaria Gómez y Adrián Muro
+              <strong>Biblia y Ramo:</strong> <br></br> Macaria Gómez y Adrián Muro
             </li>
             <li>
-              <strong>Arras:</strong> Bárbara Sánchez y Brenda Sánchez
+              <strong>Arras:</strong> <br></br> Bárbara Sánchez y Brenda Sánchez
             </li>
           </ul>
         </div>

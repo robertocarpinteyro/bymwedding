@@ -12,7 +12,7 @@ const Saveday = () => {
                         <div className="row">
                             <div className="col-12 col-md-4 section-area">
                                 <div className="section-sub"></div>
-                                <h2 className="big"><span>Save the date</span> Date</h2>
+                                <h2 className="big"><span>Save the</span> Date</h2>
                             </div>
                             <div className="col-12 col-md-8 clock-area">
                                 <div className="count-down-clock">

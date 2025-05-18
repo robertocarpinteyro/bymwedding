@@ -30,7 +30,7 @@ Story-Area
     z-index: 20;
     display: block;
     font-size: 50px;
-    color: #D68831;
+    color: #344287;
 }
 .story-area.story-style-2 .story-top:before,
 .story-area.story-style-2 .story-bottom:before {
@@ -50,7 +50,7 @@ Story-Area
     background: #E8EFED;
 }
 .story-area.story-style-2 .story .content-wrapper::before {
-    background:#0b2839;
+    background:#344287;
     opacity: .2;
 }
 .story .item {
@@ -172,13 +172,13 @@ Story-Area
     margin-bottom: 2px;
     font-family: 'Great Vibes', cursive;
     font-size: 40px;
-    color: #0b2839;
+    color: #344287;
 }
 .story-area.story-style-2 .story .story-content h2 {
     margin-bottom: 2px;
     font-family: 'Great Vibes', cursive;
     font-size: 40px;
-    color: #0b2839;
+    color: #344287;
 }
 
 .story .story-content .btn-link {
@@ -220,7 +220,7 @@ Story-Area
     background: #efede8;
     content:"\f108";
     font-family: "Flaticon";
-    border: 5px solid #0b2839;
+    border: 5px solid #344287;
 }
 .story-area.story-style-2 .story .story-icon {
     position: absolute;
@@ -241,10 +241,10 @@ Story-Area
 .story-icon span:before {
     font-size: 30px;
     line-height: 30px;
-    color: #D68831;
+    color: #b2c2da;
 }
 .story-area.story-style-2 .story-icon span:before {
-    color: #D68831;
+    color: #b2c2da;
 }
 .story .item:nth-child(even) .story-icon {
     right: auto;
@@ -268,5 +268,5 @@ Story-Area
 }
 
 .story-area.story-style-2 a.theme-btn:hover{
-    color: #D68831;
+    color: #b2c2da;
 }

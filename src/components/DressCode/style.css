@@ -4,9 +4,9 @@
 }
 
 .section-title h2 {
-  font-family: 'Blosta', sans-serif;
+  font-family: 'Great Vibes', sans-serif;
   font-size: 36px;
-  color: #5A3211;
+  color: #647ec0;
   margin-bottom: 20px;
 }
 
@@ -35,9 +35,9 @@
 }
 
 .dress-code-section h3 {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Great Vibes', sans-serif;
   font-size: 24px;
-  color: #964405;
+  color: #344287;
   margin-bottom: 10px;
 }
 
@@ -57,7 +57,7 @@
 .restricted-colors li {
   font-family: 'Muli', sans-serif;
   font-size: 16px;
-  color: #D68831;
+  color: #b2c2da;
   margin-bottom: 5px;
 }
 
@@ -67,7 +67,7 @@
   font-family: 'Muli', sans-serif;
   font-size: 16px;
   color: #fff;
-  background-color: #10475E;
+  background-color: #344287;
   border: none;
   border-radius: 5px;
   text-decoration: none;
@@ -75,7 +75,7 @@
 }
 
 .dress-code-button:hover {
-  background-color: #0B2839;
+  background-color: #344287;
 }
 
 
@@ -94,9 +94,9 @@
 }
 
 .ceremony-content h3 {
-  font-family: 'Blosta', sans-serif;
+  font-family: 'great vibes', sans-serif;
   font-size: 28px;
-  color: #5A3211;
+  color: #344287;
   margin-bottom: 15px;
 }
 
@@ -112,7 +112,7 @@
   font-family: 'Muli', sans-serif;
   font-size: 16px;
   color: #fff;
-  background-color: #10475E;
+  background-color: #b2c2da;
   border: none;
   border-radius: 5px;
   text-decoration: none;
@@ -120,5 +120,5 @@
 }
 
 .location-btn:hover {
-  background-color: #0B2839;
+  background-color: #b2c2da;
 }

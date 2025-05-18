@@ -36,7 +36,7 @@ const Story = () => {
                       </div>
                     </div>
                     <h2>El inicio</h2>
-                    <span className="date">Noviembre 2018</span>
+                    <span className="date">Noviembre 2022</span>
                     <p>
                       La historia comenzó un buen sábado haciendo CrossFit en
                       Puebla. Empezamos con una muy buena fiesta que se prolongó
@@ -59,7 +59,7 @@ const Story = () => {
                       </div>
                     </div>
                     <h2>Primera Navidad</h2>
-                    <span className="date">Diciembre 2018</span>
+                    <span className="date">Diciembre 2022</span>
                     <p>
                       Las cosas se fueron acomodando muy fácil: nuestras ideas,
                       nuestro carácter, nuestras metas se han mezclado muy bien.
@@ -82,7 +82,7 @@ const Story = () => {
                       </div>
                     </div>
                     <h2>San Carlos</h2>
-                    <span className="date">Agosto 2019</span>
+                    <span className="date">Enero 2023</span>
                     <p>
                       Tenemos que confesarles que TODOS nos han preguntado por
                       qué nos casamos en Hermosillo, y les mentimos. Ninguno de
@@ -105,7 +105,7 @@ const Story = () => {
                       </div>
                     </div>
                     <h2>La Propuesta</h2>
-                    <span className="date">Octubre 2021</span>
+                    <span className="date">Octubre 2024</span>
                     <p>
                       Así se pasaron casi dos años. Le regalé a Moni una entrada
                       para una carrera sin que ella se imaginara que el
@@ -128,8 +128,7 @@ const Story = () => {
                         </div>
                       </div>
                     </div>
-                    <h2>Agradecimientos</h2>
-                    <span className="date">2025</span>
+                  
                     <p>
                       De corazón, le agradecemos a nuestra familia (que incluye
                       a la de sangre y a los amigos) las alegrías que nos

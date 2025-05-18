@@ -24,7 +24,7 @@ welcome-area
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(#5a3211, #964405);
+    background-image: linear-gradient(#647ec0, #344287);
     opacity: .8;
     z-index: -1;
 }
@@ -50,7 +50,7 @@ welcome-area
 .btn a {
     display: inline-block;
     background: #fff;
-    color: #964405;
+    color: #647ec0;
     padding: 10px 38px;
     font-size: 18px;
     transition: all .3s;
@@ -60,7 +60,7 @@ welcome-area
 .btn.location-btn {
     display: inline-block;
     background: #fff;
-    color: #964405;
+    color: #647ec0;
     padding: 10px 38px;
     font-size: 18px;
     transition: all .3s;
@@ -71,7 +71,7 @@ welcome-area
 
 .btn a:hover,
 .btn.location-btn:hover {
-    background: #0b2839;
+    background: #344287;
     color: #fff;
 }
 

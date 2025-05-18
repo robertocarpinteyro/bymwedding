@@ -18,6 +18,7 @@
     flex-direction: column;
     width: 100%;
     position: relative;
+
 }
 
 .item2 {
@@ -53,6 +54,7 @@
     margin-top: 51px;
     position: relative;
     z-index: 1;
+    
 }
 
 .animated-circle {
@@ -71,6 +73,7 @@
 .slide-content h2 {
     font-size: 60px;
     color: #fff;
+      font-family: 'Blosta', sans-serif;
 }
 
 .slide-subtitle h4 {
@@ -85,7 +88,7 @@
 
 @media (max-width: 767px) {
     .slide-content h2 {
-        font-size: 35px;
+        font-size: 45px;
     }
     .slide-content {
         width: 280px;
@@ -94,6 +97,9 @@
     .item1, .item2 {
         height: 580px;
         background-position: center top; /* Centra la imagen de fondo */
+    }
+    .item1 {
+        background-position: center bottom; /* Centra la imagen de fondo en móviles solo para item1 */
     }
 }
 

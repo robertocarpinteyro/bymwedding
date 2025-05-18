@@ -5,9 +5,9 @@
     z-index: 9999999;
     height: 100vh;
     width: 280px;
-    background: #0b2839;
+    background: #344287;
     transition: all 0.3s ease 0s;
-    box-shadow: 0px 10px 40px 0px rgba(50, 50, 50, 0.1);
+    box-shadow: 0px 10px 40px 0px #b2c2da;
     overflow-x: auto;
     overflow-y: scroll;
 }
@@ -22,17 +22,19 @@
     top: 18px;
     z-index: 999999999;
     cursor: pointer;
+    
 }
 
 .mobileMenu .close {
     width: 40px;
     height: 40px;
     line-height: 37px;
-    border: 1px solid #d68631;
+    border: 1px solid #b2c2da;
     text-align: center;
     margin-left: auto;
     margin-right: 10px;
     margin-top: 10px;
+    color: #b2c2da;
 
 }
 
@@ -49,7 +51,7 @@
     letter-spacing: 0;
     text-transform: capitalize;
     font-weight: 500;
-    color: #d68631;
+    color: #b2c2da;
 }
 
 .header .responsivemenu {
@@ -66,7 +68,7 @@
 
 .logo2 {
     padding: 20px;
-    border-bottom: 1px solid #d68631;
+    border-bottom: 1px solid #b2c2da;
     padding-bottom: 13px;
 }
 
@@ -99,7 +101,7 @@
 
 .header .responsivemenu li {
     padding: 0;
-    border-bottom: 1px solid #d68631;
+    border-bottom: 1px solid #b2c2da;
 }
 
 .header .responsivemenu .card-body li {
