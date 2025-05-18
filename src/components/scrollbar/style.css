@@ -18,5 +18,5 @@ ul.smothscroll a {
     transition: all .3s;
 }
 ul.smothscroll a:hover{
-    background:rgb(130, 120, 30);
+    background:#90a8d2;
 }
