@@ -24,17 +24,19 @@ welcome-area
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(#647ec0, #344287);
+
     opacity: .8;
     z-index: -1;
 }
 
 .welcome-content {
+    
     text-align: center;
     padding: 100px 0;
 }
 
 .welcome-content h2 {
+     font-family: 'Georgia', 'Times New Roman', serif;
     font-size: 55px;
     color: #fff;
 }
@@ -48,11 +50,11 @@ welcome-area
 }
 
 .btn a {
-    display: inline-block;
+    display: flex;
     background: #fff;
-    color: #647ec0;
-    padding: 10px 38px;
-    font-size: 18px;
+    color: #a5823e;
+    padding: 10px 20px;
+    font-size: 10px;
     transition: all .3s;
     font-weight: 600;
     border-radius: 40px;
@@ -60,9 +62,9 @@ welcome-area
 .btn.location-btn {
     display: inline-block;
     background: #fff;
-    color: #647ec0;
+    color: #a5823e;
     padding: 10px 38px;
-    font-size: 18px;
+    font-size: 10px;
     transition: all .3s;
     font-weight: 600;
     border-radius: 40px;
@@ -71,7 +73,7 @@ welcome-area
 
 .btn a:hover,
 .btn.location-btn:hover {
-    background: #344287;
+    background: #a5823e;
     color: #fff;
 }
 

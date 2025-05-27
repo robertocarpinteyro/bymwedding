@@ -31,15 +31,26 @@
     position: relative;
 }
 
-.item1:before, .item2:before {
+.item1:before {
     content: "";
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background: #000;
-    opacity: 0.5;
+    background: url(../../images/slider/1.jpg) center center/cover no-repeat;
+    filter: grayscale(100%) brightness(0.5); /* Más oscuro */
+    z-index: 0;
+    opacity: 1;
+    pointer-events: none;
+}
+.item1 {
+    background: none !important; /* Quita el fondo original */
+    position: relative;
+}
+.item1 > * {
+    position: relative;
+    z-index: 1;
 }
 
 .slide-content {

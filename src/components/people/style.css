@@ -3,7 +3,7 @@ person-area
 ================================*/
 
 .person-area {
-    background: #f9f9f9;
+    background: #f3ede1;
 }
 
 .person-item {
@@ -65,7 +65,7 @@ person-area
 .social-list ul {
     display: flex;
     justify-content: center;
-    background: #b2c2da;
+    background: #a5823e;
     z-index: 1;
 }
 
@@ -102,7 +102,7 @@ person-area
 .person-btn ul {
     justify-content: center;
     margin-bottom: 30px!important;
-    border-bottom: 1px solid #b2c2da;
+    border-bottom: 1px solid #a5823e;
 }
 
 .person-btn ul li a.nav-link {
@@ -132,13 +132,13 @@ person-area
 
 .person-area {
   padding: 50px 0;
-  background-color: #f9f9f9;
+  background-color: #f3ede1;
 }
 
 .section-title h2 {
   font-family: 'Blosta', sans-serif;
   font-size: 36px;
-  color: #b2c2da;
+  color: #a5823e;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -146,7 +146,7 @@ person-area
 .padrinos-content {
   font-family: 'Muli', sans-serif;
   font-size: 16px;
-  color: #333;
+  color: #a5823e;
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
@@ -164,6 +164,6 @@ person-area
 }
 
 .padrinos-content ul li strong {
-  color: #b2c2da;
+  color: #a5823e;
   font-weight: bold;
 }

@@ -1,88 +1,77 @@
+.service-area-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background: #f3ede1;
+    padding: 0;
+}
 
 .service-area-menu ul li {
     display: inline-block;
     padding: 10px 0;
-    
-}
-
-.service-area-menu ul {
-    justify-content: space-around;
-    
+    text-align: center;
 }
 
 .service-area-menu li a {
     text-align: center;
     padding: 12px 81px;
-    color: #fff;
-    border-right: 1px solid #eee;
-    
- 
+    color: #f3ede1;
+    display: inline-block;
+    width: 100%;
 }
+
 .service-area-menu li:last-child a {
     border-right: none;
 }
+
 .service-area-menu li a.active,
 .service-area-menu li a:hover {
     background: #4e7b72;
-    color: #fff;
-
+    color: #f3ede1;
 }
 
-.service-area-menu ul {
-    margin-top: 50px;
-    background: #b2c2da;
-}
-
-.ceromony-content2 {
-    padding-left: 30px;
-
-}
-
+/* CENTRAR TODO EL CONTENIDO DE CEREMONY */
 .Ceremony-wrap {
     margin-top: 30px;
-    background: #f5fbfb;
-    
+    background: #f3ede1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
 }
 
-#people .Ceremony-wrap {
-    background: none;
-}
-#people .Ceremony-wrap{
-    margin-top: 0;
-}
-.service-area2 .Ceremony-wrap {
-    background: #f5fbfb;
-}
 .ceromony-content {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    align-items: center; /* Centra todo el contenido */
+    justify-content: center;
     width: 100%;
     height: 100%;
+    text-align: center; /* Centra texto */
 }
 
-.ceromony-content h3 {
-    font-size: 30px;
-    color: #344287;
-    margin-bottom: 16px;
-
+.ceromony-content h3,
+.ceromony-content span,
+.ceromony-content p {
+    text-align: center;
 }
 
 .ceromony-content .location-btn {
-    color: #647ec0;
+    color: #a5823e;
     font-weight: 600;
     display: inline-block;
     max-width: 200px;
     padding: 0;
-    text-align: left;
+    text-align: center;
     background: none;
-  
+    margin: 16px auto;
 }
+
 .ceromony-content .btn.location-btn:hover {
     background: none!important;
     color: #b2c2da;
-    
 }
+
 .ceromony-content .location-btn:focus {
     box-shadow: none;
 }
@@ -93,53 +82,20 @@
 
 .ceromony-content p {
     padding: 20px 0;
-    padding-right: 20px;
-   
+    padding-right: 0;
+    margin: 0 auto;
+    max-width: 700px;
 }
 
-
-
-.MuiDialog-paperWidthSm {
-    max-width: 900px !important;
-}
-
-.quickview-dialog {
-    z-index: 999999 !important;
-}
-
-.modal-body iframe {
-    width: 800px;
-    height: 500px;
-}
-
-@media (max-width: 991px) {
-    .modal-body iframe {
-        width: 500px;
-    }
-}
-
+/* Responsive para móvil */
 @media (max-width: 600px) {
-    .modal-body iframe {
-        width: 100%;
+    .service-area-menu ul {
+        flex-direction: column;
     }
-}
-
-.MuiDialogTitle-root {
-    padding-bottom: 0 !important;
-}
-
-.MuiIconButton-label i {
-    font-size: 18px;
-}
-
-.event-close-btn {
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    z-index: 11;
-    background: #fff;
-    border: 2px solid #b2c2da;
+    .service-area-menu li a {
+        padding: 12px 0;
+    }
+    .ceromony-content {
+        padding: 0 10px;
+    }
 }

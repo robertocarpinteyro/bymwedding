@@ -1,12 +1,12 @@
 .dress-code-area {
   padding: 50px 0;
-  background-color: #f9f9f9;
+  background-color: #f3ede1;
 }
 
 .section-title h2 {
-  font-family: 'Great Vibes', sans-serif;
+  font-family: 'Georgia', sans-serif;
   font-size: 36px;
-  color: #647ec0;
+  color: #a5823e;
   margin-bottom: 20px;
 }
 
@@ -35,9 +35,9 @@
 }
 
 .dress-code-section h3 {
-  font-family: 'Great Vibes', sans-serif;
+  font-family: 'Georgia', sans-serif;
   font-size: 24px;
-  color: #344287;
+  color: #a5823e;
   margin-bottom: 10px;
 }
 
@@ -67,7 +67,7 @@
   font-family: 'Muli', sans-serif;
   font-size: 16px;
   color: #fff;
-  background-color: #344287;
+  background-color: #a5823e;
   border: none;
   border-radius: 5px;
   text-decoration: none;
@@ -75,14 +75,14 @@
 }
 
 .dress-code-button:hover {
-  background-color: #344287;
+  background-color: #a5823e;
 }
 
 
 .ceremony-wrap {
   margin-top: 50px;
   padding: 30px;
-  background-color: #f9f9f9;
+  background-color: #f3ede1;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -96,7 +96,7 @@
 .ceremony-content h3 {
   font-family: 'great vibes', sans-serif;
   font-size: 28px;
-  color: #344287;
+  color: #a5823e;
   margin-bottom: 15px;
 }
 

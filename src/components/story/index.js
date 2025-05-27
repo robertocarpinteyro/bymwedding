@@ -21,12 +21,10 @@ const Story = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="story clearfix">
-              <div className="story-top"></div>
+              
               <div className="content-wrapper">
                 <div className="item">
-                  <div className="story-icon">
-                    <img src={icono1} alt="Icono" className="story-icon-img" />
-                  </div>
+              
                   <div className="story-content">
                     <div className="image-wrap">
                       <div className="single-image">
@@ -37,7 +35,7 @@ const Story = () => {
                     </div>
                     <h2>El inicio</h2>
                     <span className="date">Noviembre 2022</span>
-                    <p>
+                    <p className="textp">
                       La historia comenzó un buen sábado haciendo CrossFit en
                       Puebla. Empezamos con una muy buena fiesta que se prolongó
                       al punto de ver el amanecer cantando con mariachis y
@@ -47,9 +45,7 @@ const Story = () => {
                   </div>
                 </div>
                 <div className="item">
-                  <div className="story-icon">
-                     <img src={icono1} alt="Icono" className="story-icon-img" />
-                  </div>
+                
                   <div className="story-content">
                     <div className="image-wrap">
                       <div className="single-image">
@@ -60,7 +56,7 @@ const Story = () => {
                     </div>
                     <h2>Primera Navidad</h2>
                     <span className="date">Diciembre 2022</span>
-                    <p>
+                    <p className="textp">
                       Las cosas se fueron acomodando muy fácil: nuestras ideas,
                       nuestro carácter, nuestras metas se han mezclado muy bien.
                       Todo ha salido tan bonito que nos conocimos en noviembre y
@@ -70,9 +66,7 @@ const Story = () => {
                   </div>
                 </div>
                 <div className="item">
-                  <div className="story-icon">
-                     <img src={icono1} alt="Icono" className="story-icon-img" />
-                  </div>
+                 
                   <div className="story-content">
                     <div className="image-wrap">
                       <div className="single-image">
@@ -83,7 +77,7 @@ const Story = () => {
                     </div>
                     <h2>San Carlos</h2>
                     <span className="date">Enero 2023</span>
-                    <p>
+                    <p className="textp">
                       Tenemos que confesarles que TODOS nos han preguntado por
                       qué nos casamos en Hermosillo, y les mentimos. Ninguno de
                       los dos somos de ahí, pero el inicio de nuestro noviazgo
@@ -93,9 +87,7 @@ const Story = () => {
                   </div>
                 </div>
                 <div className="item">
-                  <div className="story-icon">
-                     <img src={icono2} alt="Icono" className="story-icon-img" />
-                  </div>
+                
                   <div className="story-content">
                     <div className="image-wrap">
                       <div className="single-image">
@@ -106,7 +98,7 @@ const Story = () => {
                     </div>
                     <h2>La Propuesta</h2>
                     <span className="date">Octubre 2024</span>
-                    <p>
+                    <p className="textp">
                       Así se pasaron casi dos años. Le regalé a Moni una entrada
                       para una carrera sin que ella se imaginara que el
                       verdadero plan era pedirle que se casara conmigo. Y así,
@@ -117,9 +109,7 @@ const Story = () => {
                   </div>
                 </div>
                 <div className="item">
-                  <div className="story-icon">
-                    <img src={icono2} alt="Icono" className="story-icon-img" />
-                  </div>
+                 
                   <div className="story-content">
                     <div className="image-wrap">
                       <div className="single-image">
@@ -129,7 +119,7 @@ const Story = () => {
                       </div>
                     </div>
                   
-                    <p>
+                    <p className="textp">
                       De corazón, le agradecemos a nuestra familia (que incluye
                       a la de sangre y a los amigos) las alegrías que nos
                       regalan con su amistad y con su amor. Gracias nuevamente
@@ -139,7 +129,7 @@ const Story = () => {
                   </div>
                 </div>
               </div>
-              <div className="story-bottom"></div>
+              
             </div>
           </div>
         </div>

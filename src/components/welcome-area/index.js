@@ -10,7 +10,7 @@ const Welcome = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="welcome-content">
-              <h2>Bienvenidos</h2>
+              <h2>¡NOS CASAMOS!</h2>
               <p>
                 Nos emociona compartir con ustedes uno de los días más
                 importantes de nuestras vidas. <br></br>Será una celebración íntima, con
