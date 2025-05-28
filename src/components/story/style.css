@@ -171,13 +171,13 @@ Story-Area
 
 .story .story-content h2 {
   margin-bottom: 2px;
-   font-family: 'Georgia', 'Times New Roman', serif;
+   font-family: 'seasons', 'Times New Roman', serif;
   font-size: 40px;
   color: #fff;
 }
 .story-area.story-style-2 .story .story-content h2 {
   margin-bottom: 2px;
-   font-family: 'Georgia', 'Times New Roman', serif;
+   font-family: 'seasons', 'Times New Roman', serif;
   font-size: 40px;
   color: #fff;
 }
@@ -194,14 +194,14 @@ Story-Area
   text-align: left;
   color: #fff;
   font-size: 18px;
-  font-family: "Georgia", "Times New Roman", serif;
+  font-family: "seasons", "Times New Roman", serif;
 }
 
 .story .item:nth-child(even) .story-content {
-  text-align: right;
+  text-align: left;
 }
 .story .item:nth-child(even) .story-content .date {
-  text-align: right;
+  text-align: left;
   left: -140%;
 }
 .btn2 a {

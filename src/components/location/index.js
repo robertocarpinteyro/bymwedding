@@ -12,34 +12,37 @@ const Location = () => {
   return (
     <div id="event" className="service-area section-padding">
       <div className="container">
-        <Sectiontitle section={"¿Dónde y Cuándo?"} />
+        <Sectiontitle section={"¿DÓNDE Y CUÁNDO?"} />
         <div className="service-area-menu">
           {/* Ceremonia & Fiesta */}
           <div className="Ceremony-wrap">
             <div className="row">
               <div className="col-lg-5">
                 <div className="ceromony-img">
-                  <img src={strory1} alt="Ceremonia y Fiesta" />
+                  <img className="marco-dorado" src={strory1} alt="Ceremonia y Fiesta" />
                 </div>
               </div>
               <div className="col-lg-7">
                 <div className="ceromony-content">
-                  <h3>Ceremonia & Fiesta</h3>
-                  <span>11 de octubre de 2025</span>
-                  <span>📍 Vila Toscana</span>
+                  <h3>CEREMONIA & FIESTA</h3>
+                  <strong>
+                    <span>11 de octubre de 2025</span>
+                    <span>📍 Vila Toscana</span>
+                  </strong>
+                   <br />
                   <LocationMap buttonClass={"location-btn"} />
-                    <br />
+                  <br />
                   <span>
-                    <strong> Misa |</strong> 4:00 p.m.
+                    <strong> Misa | 4:00 p.m.</strong>
                   </span>
                   <span>
-                    <strong>Cóctel de bienvenida | </strong> 6:00 pm
+                    <strong>Cóctel de bienvenida | 6:00 pm</strong>
                   </span>
+
                   <p>
-                    <strong>Importante:</strong> Por esta ocasión, les pedimos
-                    que solo nos acompañen adultos, ya que el evento ha sido
-                    organizado con el propósito de divertirnos y pasar un
-                    agradable momento juntos. (No niños)
+                    Deseamos que pasen una velada relajada sin preocupaciones,
+                    divirtiéndose al máximo. Por este motivo les pedimos que
+                    durante esta tarde nos acompañen únicamente adultos.
                   </p>
                 </div>
               </div>
@@ -49,33 +52,35 @@ const Location = () => {
           {/* Rompehielo: Pre-boda */}
           <div className="Ceremony-wrap">
             <div className="row">
+              <div className="col-lg-5">
+                <div className="ceromony-img">
+                  <img className="marco-dorado" src={strory2} alt="Rompehielo Pre-boda" />
+                </div>
+              </div>
               <div className="col-lg-7">
                 <div className="ceromony-content ceromony-content2">
-                  <h3>Rompehielos</h3>
+                  <h3>ROMPEHIELOS</h3>
+
+                  <span>
+                    <strong> 10 de octubre de 2025 | 6:00 p.m.</strong>
+                  </span>
+                  <strong>
+                    {" "}
+                    <span>📍 La Ruina</span>
+                  </strong>
+                   <br />
+                  <LocationMap2 buttonClass={"location-btn"} />
+                  <p>Vengan cómodos y con ganas de pasarla bien.</p>
                   <span>
                     Queremos que el fin de semana esté lleno de momentos
                     bonitos, por eso organizamos una reunión informal y tengan
                     la oportunidad de conocerse antes del gran día.
                   </span>
                   <br />
-                   <span>
-                    <strong> 10 de octubre de 2025 |</strong> 6:00 p.m.
-                  </span>
-                  <span>📍 La Ruina</span>
-                  <LocationMap2 buttonClass={"location-btn"} />
-                  <p>Vengan cómodos y con ganas de pasarla bien.</p>
-                </div>
-              </div>
-              <div className="col-lg-5">
-                <div className="ceromony-img">
-                  <img src={strory2} alt="Rompehielo Pre-boda" />
                 </div>
               </div>
             </div>
           </div>
- 
-
-       
         </div>
       </div>
     </div>

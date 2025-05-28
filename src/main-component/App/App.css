@@ -8,6 +8,13 @@
 }
 
 @font-face {
+  font-family: 'seasons';
+  src: url('../../assets/fonts/seasons.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Moneta';
   src: url('../../assets/fonts/moneta.otf') format('opentype');
   font-weight: normal;
@@ -15,10 +22,11 @@
 }
 
 h1,h2,h3{
-  font-family: 'Georgia', sans-serif;
+  font-family: 'seasons', sans-serif;
 }
 body{
   font-family: 'Muli', sans-serif;
+   background: #f3ede1;
 }
 ul{
   list-style: none;

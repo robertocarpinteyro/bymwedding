@@ -4,17 +4,19 @@
 }
 
 .section-title h2 {
-  font-family: 'Georgia', sans-serif;
+  font-family: 'seasons', sans-serif;
   font-size: 36px;
   color: #a5823e;
   margin-bottom: 20px;
+   text-align: center;
 }
 
 .section-title p {
   font-family: 'Muli', sans-serif;
   font-size: 16px;
-  color: #555;
+  color: #a5823e;
   margin-bottom: 40px;
+   text-align: center;
 }
 
 .dress-code-content {
@@ -22,6 +24,8 @@
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
+   text-align: center;
+   color: #a5823e;
 }
 
 .dress-code-section {
@@ -35,7 +39,7 @@
 }
 
 .dress-code-section h3 {
-  font-family: 'Georgia', sans-serif;
+  font-family: 'seasons', sans-serif;
   font-size: 24px;
   color: #a5823e;
   margin-bottom: 10px;
@@ -44,7 +48,7 @@
 .dress-code-section p {
   font-family: 'Muli', sans-serif;
   font-size: 16px;
-  color: #333;
+  color: #a5823e;
   margin-bottom: 15px;
 }
 
@@ -57,21 +61,20 @@
 .restricted-colors li {
   font-family: 'Muli', sans-serif;
   font-size: 16px;
-  color: #b2c2da;
+  color: #a5823e;
   margin-bottom: 5px;
 }
 
 .dress-code-button {
-  display: inline-block;
-  padding: 10px 20px;
-  font-family: 'Muli', sans-serif;
-  font-size: 16px;
-  color: #fff;
-  background-color: #a5823e;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
+   display: inline-block;
+    background: #fff;
+    color: #a5823e;
+    padding: 10px 38px;
+    font-size: 10px;
+    transition: all .3s;
+    font-weight: 600;
+    border-radius: 40px;
+    box-shadow: none;
 }
 
 .dress-code-button:hover {
@@ -82,15 +85,12 @@
 .ceremony-wrap {
   margin-top: 50px;
   padding: 30px;
-  background-color: #f3ede1;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 
 .ceremony-content {
   font-family: 'Muli', sans-serif;
-  color: #333;
+  color: #a5823e;
 }
 
 .ceremony-content h3 {
@@ -120,5 +120,5 @@
 }
 
 .location-btn:hover {
-  background-color: #b2c2da;
+  background-color: #a5823e;
 }

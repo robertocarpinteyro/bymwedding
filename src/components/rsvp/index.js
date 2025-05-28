@@ -112,10 +112,10 @@ class Rsvp extends Component {
         <div className="container">
           <div className="row">
             <div className="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
-              <div className="rsvp-wrap">
+              <div >
                 <div className="col-12">
-                  <div className="section-title section-title4 text-center">
-                    <h2>Confirma tu Asistencia</h2>
+                  <div className="ceromony-section">
+                    <h2>CONFIRMA TU ASISTENCIA</h2>
                     <p>
                       Confírmanos tu asistencia antes del 15 de septiembre para
                       tener todo listo y hermoso para ti.

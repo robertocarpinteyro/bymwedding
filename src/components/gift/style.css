@@ -22,21 +22,21 @@
 .section-title h2 {
   font-family: 'Blosta', sans-serif;
   font-size: 36px;
-  color: #b2c2da;
+  color: #a5823e;
   margin-bottom: 20px;
 }
 
 .section-title p {
   font-family: 'Muli', sans-serif;
   font-size: 16px;
-  color: #555;
+  color: #a5823e;
   margin-bottom: 40px;
 }
 
 .gift-content {
   text-align: center;
   font-family: 'Muli', sans-serif;
-  color: #333;
+  color: #a5823e;
 }
 
 .gift-link {
@@ -57,7 +57,7 @@
 }
 
 .gift-button:hover {
-  background-color: #b2c2da;
+  background-color: #a5823e;
 }
 
 .gift-details {
@@ -79,7 +79,7 @@
 
 .important-note {
   font-size: 14px;
-  color: #0b2839;
+  color: #a5823e;
   margin-top: 20px;
   text-align: center;
 }

@@ -15,7 +15,7 @@ const Story = () => {
       <div className="container">
         <div className="col-l2">
           <div className="section-title text-center">
-            <h2>Nuestra Historia</h2>
+            <h2>NUESTRA HISTORIA</h2>
           </div>
         </div>
         <div className="row">

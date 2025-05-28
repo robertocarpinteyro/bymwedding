@@ -50,7 +50,7 @@
     line-height: 1.4;
     margin-bottom: 0;
     color: #a5823e;
-    font-family: 'Georgia', cursive;
+    font-family: 'seasons', cursive;
 }
 
 @media (max-width:767px){
@@ -148,7 +148,7 @@
 }
 
 .save-the-date-title {
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: 'seasons', 'Times New Roman', serif;
   font-size: 48px;
   color: #a5823e;
   text-align: center;

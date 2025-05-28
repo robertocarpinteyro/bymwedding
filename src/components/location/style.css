@@ -31,6 +31,16 @@
     color: #f3ede1;
 }
 
+
+.marco-dorado {
+    border: 12px solid #c89b74;
+    border-radius: 4px;    /* Opcional: bordes redondeados */
+    box-sizing: border-box;
+    background: #fff;       /* Opcional: fondo blanco detrás del borde */
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
 /* CENTRAR TODO EL CONTENIDO DE CEREMONY */
 .Ceremony-wrap {
     margin-top: 30px;
@@ -48,28 +58,30 @@
     width: 100%;
     height: 100%;
     text-align: center; /* Centra texto */
+    margin-top: 5px;
 }
 
 .ceromony-content h3,
 .ceromony-content span,
 .ceromony-content p {
     text-align: center;
+    color: #a5823e;
 }
 
 .ceromony-content .location-btn {
+ display: flex;
+    background: #fff;
     color: #a5823e;
+    padding: 10px 20px;
+    font-size: 10px;
+    transition: all .3s;
     font-weight: 600;
-    display: inline-block;
-    max-width: 200px;
-    padding: 0;
-    text-align: center;
-    background: none;
-    margin: 16px auto;
+    border-radius: 40px;
 }
 
 .ceromony-content .btn.location-btn:hover {
-    background: none!important;
-    color: #b2c2da;
+     background: #a5823e;
+    color: #fff;
 }
 
 .ceromony-content .location-btn:focus {
@@ -85,6 +97,7 @@
     padding-right: 0;
     margin: 0 auto;
     max-width: 700px;
+    color: #a5823e;
 }
 
 /* Responsive para móvil */

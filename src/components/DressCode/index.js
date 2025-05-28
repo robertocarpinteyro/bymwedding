@@ -6,7 +6,7 @@ const DressCode = () => {
     <div id="dress-code" className="dress-code-area section-padding">
       <div className="container">
         <div className="section-title text-center">
-          <h2>Código de Vestimenta</h2>
+          <h2>CÓDIGO DE VESTIMENTA</h2>
           <p>
             Queremos que luzcan espectaculares en nuestro día especial. Aquí
             están las recomendaciones para el código de vestimenta.
@@ -14,13 +14,13 @@ const DressCode = () => {
         </div>
         <div className="dress-code-content">
           {/* Mujeres */}
-          <div className="dress-code-section">
-            <h3>Mujeres</h3>
+          <div>
+           <strong> <h3>Mujeres</h3></strong>
             <p>
               Vestido largo, elegante, de cualquier color excepto los reservados
               para la novia.
             </p>
-            <p>Por favor, evita los siguientes tonos:</p>
+           <strong> <p>Por favor, evita los siguientes tonos:</p></strong>
             <ul className="restricted-colors">
               <li>Blanco</li>
               <li>Ivory claro</li>
@@ -39,11 +39,12 @@ const DressCode = () => {
           </div>
 
           {/* Hombres */}
-          <div className="dress-code-section">
-            <h3>Hombres</h3>
+          <div >
+           <strong> <h3>Hombres</h3></strong>
             <p>
-              Formal. Pueden usar traje o guayabera elegante. <br></br>¡Queremos
-              verlos guapos!
+              Formal (traje elegante). <br></br>
+              <strong>¡Queremos
+              verlos guapos!</strong>
             </p>
             <a
               href="https://pin.it/7Ha49ljSw"
@@ -61,7 +62,7 @@ const DressCode = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="ceremony-content text-center">
-                <h3>¿Dónde Hospedarse?</h3>
+                <h2>¿DÓNDE HOSPEDARSE?</h2>
                 <p>
                   Recomendamos este hotel cercano y cómodo para el fin de
                   semana:
@@ -71,8 +72,8 @@ const DressCode = () => {
                   maxWidth="md"
                 />
                 <p>
-                  Si necesitan ayuda extra con reservaciones, no duden en
-                  escribirnos.
+                 <strong> Si necesitan ayuda extra con reservaciones, no duden en
+                  escribirnos.</strong>
                 </p>
               </div>
             </div>

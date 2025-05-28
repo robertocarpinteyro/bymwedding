@@ -6,7 +6,7 @@ const People = () => {
   return (
     <div id="people" className="person-area section-padding pb-70">
       <div className="container">
-        <Sectiontitle section={'Nuestros Padrinos'} />
+        <Sectiontitle section={'NUESTROS PADRINOS'} />
         <div className="padrinos-content">
           <ul>
             <li>

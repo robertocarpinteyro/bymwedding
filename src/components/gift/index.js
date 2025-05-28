@@ -11,7 +11,7 @@ class Gift extends Component {
         <div className="container">
           <div className="col-12">
             <div className="section-title text-center">
-              <h2>Mesa de Regalos</h2>
+              <h2>MESA DE REGALOS</h2>
               <p>
                 Su presencia es lo más importante para nosotros. <br></br>Hemos preparado
                 una mesa de regalos donde podrás elegir algo especial para
@@ -20,6 +20,7 @@ class Gift extends Component {
             </div>
           </div>
           <div className="gift-content">
+            <br></br>
             <div className="gift-link">
               <a
                 href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51634139"
