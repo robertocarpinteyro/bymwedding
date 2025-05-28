@@ -45,15 +45,13 @@
 
 .gift-button {
   display: inline-block;
-  padding: 12px 30px;
-  font-family: 'Muli', sans-serif;
-  font-size: 16px;
-  color: #fff;
-  background-color: #a5823e;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
+    background: #fff;
+    color: #a5823e;
+    padding: 10px 38px;
+    font-size: 10px;
+    transition: all .3s;
+    font-weight: 600;
+    border-radius: 40px;
 }
 
 .gift-button:hover {
