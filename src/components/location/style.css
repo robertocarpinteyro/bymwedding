@@ -61,16 +61,22 @@
     margin-top: 5px;
 }
 
-.ceromony-content h3,
+.ceromony-content h3{
+  font-family: 'LeJour', sans-serif !important;
+    font-size: 25px;
+    color: #a5823e;
+    margin-bottom: 20px;
+}
 .ceromony-content span,
 .ceromony-content p {
     text-align: center;
     color: #a5823e;
+    
 }
 
 .ceromony-content .location-btn {
  display: flex;
-    background: #ffe5c4;
+    background: #fff;
     color: #a5823e;
     padding: 10px 20px;
     font-size: 10px;
@@ -80,7 +86,7 @@
 }
 
 .ceromony-content .btn.location-btn:hover {
-     background: #ffe5c4;
+     background: #fff;
     color: #424242;
 }
 

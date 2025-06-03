@@ -18,9 +18,9 @@ const DressCode = () => {
           <div>
             <strong>
               {" "}
-              <h3>Mujeres</h3>
+              Mujeres
             </strong>
-            <p>
+            <p><br/>
               Vestido largo, elegante, de cualquier color excepto los reservados
               para la novia.
             </p>
@@ -50,9 +50,9 @@ const DressCode = () => {
           <div>
             <strong>
               {" "}
-              <h3>Hombres</h3>
+             Hombres
             </strong>
-            <p>
+            <p><br/>
               Formal (traje elegante). <br></br>
               <strong>¡Queremos verlos guapos!</strong>
             </p>
@@ -79,7 +79,7 @@ const DressCode = () => {
                   semana:
                 </p>
                 <LocationMap3 buttonClass="location-btn" maxWidth="md" />
-                <p>
+                <p><br/>
                   <strong>
                     {" "}
                     Si necesitan ayuda extra con reservaciones, no duden en

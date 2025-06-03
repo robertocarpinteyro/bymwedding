@@ -54,8 +54,8 @@ const Story = () => {
                         </div>
                       </div>
                     </div>
-                    <h2>Primera Navidad</h2>
-                    <span className="date">Diciembre 2022</span>
+                    <h2>PRIMERA NAVIDAD</h2>
+                    <span className="date">DICIEMBRE 2022</span>
                     <p className="textp">
                       Las cosas se fueron acomodando muy fácil: nuestras ideas,
                       nuestro carácter, nuestras metas se han mezclado muy bien.
@@ -75,8 +75,8 @@ const Story = () => {
                         </div>
                       </div>
                     </div>
-                    <h2>San Carlos</h2>
-                    <span className="date">Enero 2023</span>
+                    <h2>SAN CARLOS</h2>
+                    <span className="date">ENERO 2023</span>
                     <p className="textp">
                       Tenemos que confesarles que TODOS nos han preguntado por
                       qué nos casamos en Hermosillo, y les mentimos. Ninguno de
@@ -96,8 +96,8 @@ const Story = () => {
                         </div>
                       </div>
                     </div>
-                    <h2>La Propuesta</h2>
-                    <span className="date">Octubre 2024</span>
+                    <h2>LA PROPUESTA</h2>
+                    <span className="date">OCTUBRE 2024</span>
                     <p className="textp">
                       Así se pasaron casi dos años. Le regalé a Moni una entrada
                       para una carrera sin que ella se imaginara que el

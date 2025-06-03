@@ -3,6 +3,7 @@
     padding: 30px 0;
     position: relative;
     background-attachment: fixed;
+ 
     z-index: 1;
 }
 .rsvp-wrap {
@@ -25,7 +26,7 @@
     height: 45px;
     margin-top: 10px;
     padding-left: 10px;
-    background: #ffe5c4;
+    background: #fff;
     opacity: 1;
     border: none;
     border-radius: 5px;
@@ -35,12 +36,12 @@
 .contact-form select,
 .contact-textarea,
 .form-control {
-    background: #ffe5c4 !important;
+    background: #fff !important;
 }
 .form-control {
     margin-top: 20px;
     font-size: 16px;
-    background: #ffe5c4;
+    background: #fff;
 }
 
 select.form-control:not([size]):not([multiple]) {
@@ -89,7 +90,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .contact-form button {
      display: inline-block;
-    background: #ffe5c4;
+    background: #fff;
     color: #a5823e;
     padding: 10px 38px;
     font-size: 10px;
@@ -104,7 +105,7 @@ select.form-control:not([size]):not([multiple]) {
     background: #a5823e;
 }
 .contact-form button:hover {
-    background: #ffe5c4;
+    background: #fff;
 }
 ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
