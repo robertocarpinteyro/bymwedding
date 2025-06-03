@@ -1,5 +1,5 @@
 .count-down-area{
-    padding-top: 60px;
+    padding-top: 0px;
   
 }
 .countdownwrap {
@@ -154,16 +154,27 @@
   text-align: center;
   letter-spacing: 2px;
   font-weight: bold;
-
   padding: 30px 0 10px 0;
   position: relative;
   margin-bottom: 0;
+  margin-left: 60px;   /* Margen lateral izquierdo */
+  margin-right: 60px;  /* Margen lateral derecho */
+}
+
+@media (max-width: 767px) {
+  .save-the-date-title {
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 36px;
+    padding: 20px 0 8px 0;
+    
+  }
 }
 
 .save-the-date-title::after {
   content: "";
   display: block;
-  margin: 18px auto 0 auto;
+  margin: 2px auto 0 auto;
   width: 220px;
   height: 1px;
   background: #a5823e;

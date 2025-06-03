@@ -108,7 +108,7 @@ class Rsvp extends Component {
     const { name, email, rsvp, events, notes, error, successMessage } =
       this.state;
     return (
-      <div id="rsvp" className="rsvp-area go-rsvp-area section-padding">
+      <div id="rsvp" className="rsvp-area go-rsvp-area ">
         <div className="container">
           <div className="row">
             <div className="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
@@ -197,7 +197,7 @@ class Rsvp extends Component {
                     </div>
                     <div className="col-12 text-center">
                       <button id="submit" type="submit" className="submit">
-                        Confirmar mi asistencia
+                        Confirmar
                       </button>
                       {successMessage && (
                         <p className="success-message">{successMessage}</p>

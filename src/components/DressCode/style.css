@@ -1,9 +1,9 @@
 .dress-code-area {
-  padding: 50px 0;
+  padding: 20px 0;
   background-color: #f3ede1;
 }
 
-.section-title h2 {
+.section-titles h2 {
   font-family: 'seasons', sans-serif;
   font-size: 36px;
   color: #a5823e;
@@ -18,7 +18,18 @@
   margin-bottom: 40px;
    text-align: center;
 }
+.dress-code-area .section-title::after {
+  display: none !important;
+  content: none !important;
+}
 
+.mujeres-separator {
+  width: 220px;
+  height: 2px;
+  background: #a5823e;
+  margin: 24px auto 24px auto;
+  border-radius: 2px;
+}
 .dress-code-content {
   display: flex;
   flex-wrap: wrap;
@@ -121,4 +132,12 @@
 
 .location-btn:hover {
   background-color: #a5823e;
+}
+
+@media (max-width: 767px) {
+  .section-title h2 {
+    font-size: 26px !important;
+    margin-bottom: 12px;
+    padding: 0 8px;
+  }
 }

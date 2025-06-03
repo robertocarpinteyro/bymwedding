@@ -131,7 +131,7 @@ person-area
 }
 
 .person-area {
-  padding: 50px 0;
+  padding: 5px 0;
   background-color: #f3ede1;
 }
 
@@ -139,7 +139,7 @@ person-area
   font-family: 'Blosta', sans-serif;
   font-size: 36px;
   color: #a5823e;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 

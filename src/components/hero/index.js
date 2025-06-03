@@ -30,15 +30,7 @@ class SimpleSlider extends Component {
                   <span className="names">BENJAMÍN</span>
                 </h2>
               </div>
-              <div className="slide-text">
-                <div className="slide-columns">
-                  <p className="left-column">11 DE OCTUBRE
-                    <br />
-                    <span className="year">DE 2025</span>
-                  </p>
-                  <p className="right-column">HERMOSILLO, SONORA</p>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>

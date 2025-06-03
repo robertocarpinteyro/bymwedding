@@ -45,13 +45,14 @@
 
 .gift-button {
   display: inline-block;
-    background: #fff;
+    background: #ffe5c4;
     color: #a5823e;
     padding: 10px 38px;
     font-size: 10px;
     transition: all .3s;
     font-weight: 600;
     border-radius: 40px;
+   box-shadow: 0 4px 16px rgba(168, 130, 62, 0.18);
 }
 
 .gift-button:hover {
@@ -80,4 +81,17 @@
   color: #a5823e;
   margin-top: 20px;
   text-align: center;
+}
+
+.mujeres-separator {
+  width: 220px;
+  height: 2px;
+  background: #a5823e;
+  margin: 24px auto 24px auto;
+  border-radius: 2px;
+}
+
+.gift-area .section-title::after {
+  display: none !important;
+  content: none !important;
 }

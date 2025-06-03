@@ -12,6 +12,7 @@ class Gift extends Component {
           <div className="col-12">
             <div className="section-title text-center">
               <h2>MESA DE REGALOS</h2>
+                <div className="mujeres-separator"></div>
               <p>
                 Su presencia es lo más importante para nosotros. <br></br>Hemos preparado
                 una mesa de regalos donde podrás elegir algo especial para
@@ -28,7 +29,7 @@ class Gift extends Component {
                 rel="noopener noreferrer"
                 className="gift-button"
               >
-                Ver mesa de regalos
+                Ver mesa
               </a>
             </div>
             <div className="gift-details">

@@ -6,6 +6,7 @@ Story-Area
   position: relative;
   padding: 5em 0;
   margin-bottom: 2em;
+  
 }
 
 .story-top,
@@ -180,6 +181,7 @@ Story-Area
    font-family: 'seasons', 'Times New Roman', serif;
   font-size: 40px;
   color: #fff;
+  
 }
 
 .story .story-content .btn-link {
@@ -274,4 +276,14 @@ Story-Area
 }
 .textp{
     color: #fff;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  margin: 2px auto 0 auto;
+  width: 260px;
+  height: 1px;
+  background: #a5823e;
+  position: relative;
 }

@@ -3,9 +3,9 @@ welcome-area
 =================================*/
 
 .welcome-area {
-    background: url(../../images/1.jpg);
+    background: url(../../images/2.png);
     position: relative;
-    height: 600px;
+    height: 400px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,7 +91,7 @@ welcome-area
         color: #fff;
     }
     .welcome-content {
-        padding: 85px 0 0;
+        padding: 5px 0 0;
     }
     .welcome-area {
 

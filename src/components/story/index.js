@@ -11,7 +11,7 @@ import "./style.css";
 
 const Story = () => {
   return (
-    <div id="story" className="story-area section-padding">
+    <div id="story" className="story-area section-padding ">
       <div className="container">
         <div className="col-l2">
           <div className="section-title text-center">

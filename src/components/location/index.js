@@ -10,9 +10,9 @@ import "./style.css";
 
 const Location = () => {
   return (
-    <div id="event" className="service-area section-padding">
+    <div id="event" className="service-area ">
       <div className="container">
-        <Sectiontitle section={"¿DÓNDE Y CUÁNDO?"} />
+        <Sectiontitle section={"¿DÓNDE & CUÁNDO?"} />
         <div className="service-area-menu">
           {/* Ceremonia & Fiesta */}
           <div className="Ceremony-wrap">
