@@ -23,15 +23,15 @@
     text-decoration: none;
 }
 .header ul li a:hover{
-    color:#a5823e;
+    color:#f3ede1;
 }
 .logo {
     margin-top: 20px;
 }
 
 .logo h2 a {
-    font-size: 25px;
-    font-family: 'Great Vibes', cursive;
+    font-size: 20px !important;
+    font-family: 'LeJour', cursive;
     color:#fff;
 }
 

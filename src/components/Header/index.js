@@ -17,7 +17,7 @@ const Header = () => {
                   <AnchorLink href="#home">
                     Mónica
                     <span>
-                      <i className="fa fa-heart" aria-hidden="true"></i>
+                      &{" "}
                     </span>
                     Benjamín
                   </AnchorLink>

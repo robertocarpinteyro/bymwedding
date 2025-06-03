@@ -82,13 +82,13 @@
 }
 
 .slide-content h2 {
-    font-size: 60px;
+    font-size: 25px !important;
     color: #fff;
-      font-family: 'Blosta', sans-serif;
+      font-family: 'LeJour', sans-serif;
 }
 
 .slide-subtitle h4 {
-    font-size: 16px;
+    font-size: 15px;
     color: #fff;
 }
 
