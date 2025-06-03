@@ -51,7 +51,7 @@ welcome-area
 
 .btn a {
     display: flex;
-    background: #fff;
+    background: #ffe5c4;
     color: #a5823e;
     padding: 10px 20px;
     font-size: 10px;
@@ -61,7 +61,7 @@ welcome-area
 }
 .btn.location-btn {
     display: inline-block;
-    background: #fff;
+    background: #ffe5c4;
     color: #a5823e;
     padding: 10px 38px;
     font-size: 10px;
@@ -73,8 +73,8 @@ welcome-area
 
 .btn a:hover,
 .btn.location-btn:hover {
-    background: #a5823e;
-    color: #fff;
+    background: #ffe5c4;
+    color: #2c2c2c;
 }
 
 @media (max-width:767px){

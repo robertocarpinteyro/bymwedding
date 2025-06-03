@@ -78,7 +78,7 @@
 
 .dress-code-button {
    display: inline-block;
-    background: #fff;
+    background: #ffe5c4;
     color: #a5823e;
     padding: 10px 38px;
     font-size: 10px;
@@ -89,7 +89,8 @@
 }
 
 .dress-code-button:hover {
-  background-color: #a5823e;
+  background-color: #ffe5c4;
+   color: #2c2c2c;
 }
 
 

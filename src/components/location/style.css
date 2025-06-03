@@ -70,7 +70,7 @@
 
 .ceromony-content .location-btn {
  display: flex;
-    background: #fff;
+    background: #ffe5c4;
     color: #a5823e;
     padding: 10px 20px;
     font-size: 10px;
@@ -80,8 +80,8 @@
 }
 
 .ceromony-content .btn.location-btn:hover {
-     background: #a5823e;
-    color: #fff;
+     background: #ffe5c4;
+    color: #424242;
 }
 
 .ceromony-content .location-btn:focus {
