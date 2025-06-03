@@ -20,12 +20,19 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'itc';
+  src: url('../../assets/fonts/itc.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 h1,h2,h3{
   font-family: 'seasons', sans-serif;
 }
 body{
-  font-family: 'Muli', sans-serif;
+  font-family: 'itc', sans-serif;
    background: #f3ede1;
 }
 ul{
