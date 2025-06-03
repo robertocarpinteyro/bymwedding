@@ -151,23 +151,6 @@ class Rsvp extends Component {
                         <select
                           className="form-control"
                           onChange={this.changeHandler}
-                          value={rsvp}
-                          name="rsvp"
-                        >
-                          <option disabled value="">
-                            Número de reservaciones*
-                          </option>
-                          <option value="1">1</option>
-                          <option value="2">2</option>
-                          <option value="3">3</option>
-                          <option value="4">4</option>
-                        </select>
-                        <p>{error.rsvp ? error.rsvp : ""}</p>
-                      </div>
-                      <div className="col col-sm-6 col-12">
-                        <select
-                          className="form-control"
-                          onChange={this.changeHandler}
                           value={events}
                           name="events"
                         >
