@@ -121,14 +121,14 @@ Story-Area
   margin-top: -4px;
   border: 15px solid transparent;
   border-color: transparent;
-  border-left-color: #a5823e;
+  border-left-color: #c89b74;
 }
 
 .item:nth-child(odd) .story-content::after {
   margin-top: -2px;
   margin-left: -1px;
   border: 13px solid transparent;
-  border-left-color: #c89b74;
+  border-left-color: #c89b74 ;
 }
 
 .item:nth-child(odd) .story-content:hover:after {
@@ -287,3 +287,4 @@ Story-Area
   background: #a5823e;
   position: relative;
 }
+

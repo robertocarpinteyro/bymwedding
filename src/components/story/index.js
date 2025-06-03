@@ -33,8 +33,8 @@ const Story = () => {
                         </div>
                       </div>
                     </div>
-                    <h2>El inicio</h2>
-                    <span className="date">Noviembre 2022</span>
+                    <h2>EL INICIO</h2>
+                    <span className="date">NOVIEMBRE 2022</span>
                     <p className="textp">
                       La historia comenzó un buen sábado haciendo CrossFit en
                       Puebla. Empezamos con una muy buena fiesta que se prolongó

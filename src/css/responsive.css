@@ -756,18 +756,18 @@ extra small mobile 320px. end
         margin-top: -7px;
         border: 15px solid transparent;
         border-color: transparent;
-        border-right-color: #f7f7f7;
+        border-right-color: #c89b74;
     }
 
     .item:nth-child(odd) .story-content::after {
         margin-top: -4px;
         border: 12px solid transparent;
-        border-right-color: #FFF;
+        border-right-color: #c89b74;
         border-left: 0
     }
 
     .item:nth-child(odd) .story-content:hover:after {
-        border-right-color: #fff7f7;
+        border-right-color: #c89b74;
         border-left: 0
     }
 
