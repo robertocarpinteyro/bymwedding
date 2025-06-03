@@ -8,7 +8,7 @@ welcome-area
     height: 400px;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: auto 80%;
+    background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
