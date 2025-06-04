@@ -6,7 +6,7 @@ class Rsvp extends Component {
   state = {
     name: "",
     email: "",
-    rsvp: "",
+   
     events: "",
     notes: "",
     error: {},
@@ -26,13 +26,13 @@ class Rsvp extends Component {
   subimtHandler = (e) => {
     e.preventDefault();
 
-    const { name, email, rsvp, events, notes } = this.state;
+    const { name, email, events, notes } = this.state;
 
     // Validación de campos
     const error = {};
     if (name === "") error.name = "Por favor, ingresa tu nombre";
     if (email === "") error.email = "Por favor, ingresa tu email";
-    if (rsvp === "") error.rsvp = "Selecciona el número de reservaciones";
+ 
     if (events === "")
       error.events = "Selecciona los eventos a los que asistirás";
     if (notes === "") error.notes = "Por favor, ingresa un mensaje";
@@ -46,7 +46,7 @@ class Rsvp extends Component {
     const templateParams = {
       name,
       email,
-      rsvp,
+
       events,
       notes,
     };
@@ -105,7 +105,7 @@ class Rsvp extends Component {
   };
 
   render() {
-    const { name, email, rsvp, events, notes, error, successMessage } =
+    const { name, email, events, notes, error, successMessage } =
       this.state;
     return (
       <div id="rsvp" className="rsvp-area go-rsvp-area ">
