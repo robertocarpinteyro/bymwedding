@@ -11,7 +11,8 @@ const TimeCountDown = (props) => {
   });
 
   useEffect(() => {
-    setInterval(() => setNewTime(), 1000);
+    const interval = setInterval(() => setNewTime(), 1000);
+    return () => clearInterval(interval);
   }, []);
 
   const setNewTime = () => {
@@ -34,9 +35,11 @@ const TimeCountDown = (props) => {
       days = `${days}`;
       if (numbersToAddZeroTo.includes(hours)) {
         hours = `0${hours}`;
-      } else if (numbersToAddZeroTo.includes(minutes)) {
+      }
+      if (numbersToAddZeroTo.includes(minutes)) {
         minutes = `0${minutes}`;
-      } else if (numbersToAddZeroTo.includes(seconds)) {
+      }
+      if (numbersToAddZeroTo.includes(seconds)) {
         seconds = `0${seconds}`;
       }
 
